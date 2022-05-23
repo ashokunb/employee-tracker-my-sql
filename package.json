@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "employee-tracker-my-sql",
+  "description": "An interface that allow non-developers to easily view and interact with information stored in databases.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashokunb/employee-tracker-my-sql.git"
+  },
+  "keywords": [
+    "employee",
+    "tracker"
+  ],
+  "author": "Ambrose Shokunbi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashokunb/employee-tracker-my-sql/issues"
+  },
+  "homepage": "https://github.com/ashokunb/employee-tracker-my-sql#readme"
+}

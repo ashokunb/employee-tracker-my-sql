@@ -3,7 +3,7 @@
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 ## Description:
 <blockquote>
-<p>An  interfaces that allow non-developers to easily view and interact with information stored in databases.
+<p>An interface that allow non-developers to easily view and interact with information stored in databases.
 The website demo can be viewed through: https://drive.google.com/drive/folders/1Z06i-Mv9jaczY07zRPwrMqy6HbxEwbXz?usp=sharing </p>
 </blockquote>
 
