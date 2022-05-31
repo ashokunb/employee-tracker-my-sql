@@ -2,14 +2,14 @@ cTable = require("console.table");
 inquirer = require("inquirer");
 
 //functions to run the given command
-async function viewAllDepartments() { console.log('hello')}
-async function viewAllRoles() { console.log('hello')}
-async function viewAllEmployees() { console.log('hello')}
-async function addDepartments() { console.log('hello')}
-async function addRole() { console.log('hello')}
-async function addEmployee() { console.log('hello')}
-async function updEmployee() { console.log('hello')}
-async function exit() { console.log('hello')}
+function viewAllDepartments() { console.log('hello')}
+function viewAllRoles() { console.log('hello')}
+function viewAllEmployees() { console.log('hello')}
+function addDepartments() { console.log('hello')}
+function addRole() { console.log('hello')}
+function addEmployee() { console.log('hello')}
+function updEmployee() { console.log('hello')}
+function exit() { console.log('hello')}
 
 module.exports = {
     viewAllDepartments,
