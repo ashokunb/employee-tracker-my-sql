@@ -12,7 +12,7 @@ function updEmployee() { console.log('hello')}
 function exit() { console.log('hello')}
 
 module.exports = {
-    viewAllDepartments,
+  viewAllDepartments,
   viewAllRoles,
   viewAllEmployees,
   addDepartments,

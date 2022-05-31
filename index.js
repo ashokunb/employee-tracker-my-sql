@@ -50,5 +50,5 @@ const questions = () => {
     }
 )};
 
-//execustes questions function
+//executes questions function
 questions()
