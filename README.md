@@ -4,7 +4,12 @@
 ## Description:
 <blockquote>
 <p>An interface that allow non-developers to easily view and interact with information stored in databases.
-The website demo can be viewed through: https://drive.google.com/drive/folders/1Z06i-Mv9jaczY07zRPwrMqy6HbxEwbXz?usp=sharing </p>
+
+[Github repository](https://github.com/ashokunb/employee-tracker-my-sql)
+
+[Deployed link](https://drive.google.com/drive/folders/1Z06i-Mv9jaczY07zRPwrMqy6HbxEwbXz?usp=sharing) 
+
+</p>
 </blockquote>
 
 ## Table of Contents
