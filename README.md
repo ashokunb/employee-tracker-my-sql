@@ -1,4 +1,4 @@
-# Employee Tracker
+git # Employee Tracker
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 ## Description:
@@ -8,7 +8,6 @@
 [Github repository](https://github.com/ashokunb/employee-tracker-my-sql)
 
 [Deployed link](https://drive.google.com/drive/folders/1Z06i-Mv9jaczY07zRPwrMqy6HbxEwbXz?usp=sharing) 
-
 </p>
 </blockquote>
 
