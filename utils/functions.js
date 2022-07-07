@@ -1,3 +1,4 @@
+const inquirer = require("inquirer");
 const db = require("../server");
 cTable = require("console.table");
 inquirer = require("inquirer");
@@ -10,10 +11,7 @@ function viewAllDepartments() {
       res.status(500).json({ error: err.message });
       return;
     }
-    res.json({
-      message: 'success',
-      data: rows
-    });
+    console.table(rows)
   });
 };
 
@@ -26,10 +24,7 @@ function viewAllRoles() {
       res.status(500).json({ error: err.message });
       return;
     }
-    res.json({
-      message: 'success',
-      data: rows
-    });
+    console.table(rows)
   });
 };
 function viewAllEmployees() {
@@ -39,19 +34,21 @@ function viewAllEmployees() {
       res.status(500).json({ error: err.message });
       return;
     }
-    res.json({
-      message: 'success',
-      data: rows
-    });
+    console.table(rows)
   });
 };
+
 function addDepartments() {
-  
-}
-function addRole() { console.log('hello') }
-function addEmployee() { console.log('hello') }
-function updEmployee() { console.log('hello') }
-function exit() { console.log('hello') }
+inquirer.prompt([{
+  type: "input",
+  name: "department",
+  message: "What is the department name?"
+}])};
+
+function addRole() { console.log('to be created') }
+function addEmployee() { console.log('to be created') }
+function updEmployee() { console.log('to be created') }
+function exit() { console.log('Thank you') }
 
 module.exports = {
   viewAllDepartments,
