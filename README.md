@@ -1,4 +1,4 @@
-git # Employee Tracker
+# Employee Tracker
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 ## Description:

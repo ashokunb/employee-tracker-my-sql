@@ -1,7 +1,6 @@
 const inquirer = require("inquirer");
 const db = require("../server");
 cTable = require("console.table");
-inquirer = require("inquirer");
 
 //functions to run the given command
 function viewAllDepartments() {
@@ -38,12 +37,7 @@ function viewAllEmployees() {
   });
 };
 
-function addDepartments() {
-inquirer.prompt([{
-  type: "input",
-  name: "department",
-  message: "What is the department name?"
-}])};
+function addDepartments() {}
 
 function addRole() { console.log('to be created') }
 function addEmployee() { console.log('to be created') }
